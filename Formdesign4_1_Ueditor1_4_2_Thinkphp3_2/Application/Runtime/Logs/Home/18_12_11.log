@@ -1,0 +1,580 @@
+[ 2018-12-11T15:43:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2018-12-11T15:43:07+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-12-11T15:43:28+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-12-11T15:43:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2018-12-11T15:43:48+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-12-11T15:43:52+08:00 ] 127.0.0.1 /index.php?s=/index/parse.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2018-12-11T15:43:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-12-11T16:12:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-12-11T16:13:05+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-12-11T16:13:15+08:00 ] 127.0.0.1 /index.php/index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-12-11T16:15:43+08:00 ] 127.0.0.1 /index.php/formdesign/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载控制器:Formdesign
+
+[ 2018-12-11T16:15:55+08:00 ] 127.0.0.1 /index.php/formdesign/formdesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载控制器:Formdesign
+
+[ 2018-12-11T16:16:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-12-11T16:23:40+08:00 ] 127.0.0.1 /index.php/index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-12-11T16:24:27+08:00 ] 127.0.0.1 /index.php/index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-12-11T16:25:10+08:00 ] 127.0.0.1 /index.php/index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-12-11T16:53:18+08:00 ] 127.0.0.1 /index.php/index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-12-11T17:56:28+08:00 ] 127.0.0.1 /index.php/index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-12-11T21:47:26+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2018-12-11T21:47:36+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-12-11T21:47:45+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2018-12-11T21:55:57+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-12-11T21:55:58+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-12-11T21:58:27+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2018-12-11T21:58:31+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 78 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 409 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 440 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 480 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 657 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 665 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 651 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+

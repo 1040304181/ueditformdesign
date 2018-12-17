@@ -1,0 +1,1385 @@
+[ 2018-12-17T22:44:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002225s ]
+
+[ 2018-12-17T22:44:19+08:00 ] 127.0.0.1 /index.php?s=/index/parse.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-12-17T22:44:35+08:00 ] 127.0.0.1 /index.php?s=/index/parse.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2018-12-17T22:45:57+08:00 ] 127.0.0.1 /index.php?s=/Demo/index/p/1639.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `form` WHERE `is_del` = 0 LIMIT 1   [ RunTime:0.6923s ]
+SQL: SELECT `id`,`form_name`,`form_desc`,`fields`,`updatetime`,`dateline` FROM `form` WHERE `is_del` = 0 ORDER BY id desc LIMIT 8190,5   [ RunTime:0.7464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2018-12-17T22:46:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2018-12-17T22:46:04+08:00 ] 127.0.0.1 /index.php?s=/index/preview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] Undefined variable: one F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 370 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 937 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 937 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 608 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 608 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 608 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 617 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 595 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 595 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 306 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2018-12-17T22:46:08+08:00 ] 127.0.0.1 /index.php?s=/index/parse.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2018-12-17T22:46:19+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/12274.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2018-12-17T22:46:23+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12274' doesn't exist
+
+[ 2018-12-17T22:46:27+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12274' doesn't exist
+
+[ 2018-12-17T22:46:28+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12274' doesn't exist
+
+[ 2018-12-17T22:46:29+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12274' doesn't exist
+
+[ 2018-12-17T22:46:29+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12274' doesn't exist
+
+[ 2018-12-17T22:46:29+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12274' doesn't exist
+
+[ 2018-12-17T22:46:29+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12274' doesn't exist
+
+[ 2018-12-17T22:46:34+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12274 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12274' doesn't exist
+
+[ 2018-12-17T22:46:57+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+
+[ 2018-12-17T22:47:09+08:00 ] 127.0.0.1 /index.php?s=/demo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `form` WHERE `is_del` = 0 LIMIT 1   [ RunTime:0.6206s ]
+SQL: SELECT `id`,`form_name`,`form_desc`,`fields`,`updatetime`,`dateline` FROM `form` WHERE `is_del` = 0 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2018-12-17T22:47:12+08:00 ] 127.0.0.1 /index.php?s=/demo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: id F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 79 行.
+NOTIC: [8] Undefined index: form_name F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 82 行.
+NOTIC: [8] Undefined index: form_desc F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-12-17T22:47:25+08:00 ] 127.0.0.1 /index.php?s=/demo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined index: id F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 79 行.
+NOTIC: [8] Undefined index: form_name F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 82 行.
+NOTIC: [8] Undefined index: form_desc F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-12-17T22:47:52+08:00 ] 127.0.0.1 /index.php?s=/demo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0215s ]
+SQL: INSERT INTO `form` (`form_name`,`form_desc`,`updatetime`,`dateline`) VALUES ('测试','这是一个好东西','1545058072','1545058072') [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002679s ]
+
+[ 2018-12-17T22:47:54+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/12275.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12275 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2018-12-17T22:48:33+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12275 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12275' doesn't exist
+
+[ 2018-12-17T22:48:37+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12275 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12275' doesn't exist
+
+[ 2018-12-17T22:51:38+08:00 ] 127.0.0.1 /index.php?s=/demo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: id F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 79 行.
+NOTIC: [8] Undefined index: form_name F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 82 行.
+NOTIC: [8] Undefined index: form_desc F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\657adf031d1d824a09326b69902bb92e.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2018-12-17T22:54:05+08:00 ] 127.0.0.1 /index.php?s=/demo/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0232s ]
+SQL: INSERT INTO `form` (`form_name`,`form_desc`,`updatetime`,`dateline`) VALUES ('测试','这是一个好东西！','1545058445','1545058445') [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2] unlink(../Application/Runtime/Temp/21d9a5adf0e55158019e1c301ccb9502.php): No such file or directory F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2018-12-17T22:54:06+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/12276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2018-12-17T22:56:33+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T22:57:53+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0009s ]
+ERR: syntax error, unexpected '；' (T_STRING)
+
+[ 2018-12-17T22:58:12+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:08:30+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'form_data_12276' in 'where clause'
+
+[ 2018-12-17T23:09:50+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/12276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2018-12-17T23:10:04+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'form_data_12276' in 'where clause'
+
+[ 2018-12-17T23:10:34+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'form_data_12276' in 'where clause'
+
+[ 2018-12-17T23:11:31+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select * from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0020s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:14:00+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0013s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:14:53+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0015s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:15:35+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0015s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:15:53+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0016s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:16:20+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0015s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:18:17+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0015s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:18:28+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0014s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:18:52+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0012s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 239 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:19:10+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2018-12-17T23:19:18+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_1' [ RunTime:0.0019s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 239 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `form_data_1` [ RunTime:0.0085s ]
+SQL: UPDATE `form` SET `fields`='23',`content`='<p style=\"text-align: center;\"><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\"><input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{|-<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>-|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{|-<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>-|}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{|--|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\"><input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p><input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/></p><p><input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/></p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_parse`='<p style=\"text-align: center;\"><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\">{data_12}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{data_13}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_14}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"></td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_18}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p>{data_22}</p><p>{data_23}</p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_data`='a:6:{i:0;a:12:{s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:5:\"title\";s:9:\"文本框\";s:5:\"value\";s:9:\"雷劈网\";s:4:\"name\";s:7:\"data_12\";s:9:\"orgheight\";s:0:\"\";s:8:\"orgwidth\";s:3:\"150\";s:8:\"orgalign\";s:4:\"left\";s:11:\"orgfontsize\";s:0:\"\";s:7:\"orghide\";s:1:\"0\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:205:\"<input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/>\";}i:1;a:8:{s:12:\"leipiplugins\";s:6:\"select\";s:4:\"name\";s:7:\"data_13\";s:5:\"title\";s:12:\"下拉菜单\";s:4:\"size\";s:1:\"1\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:13:\"width: 150px;\";s:5:\"value\";s:13:\"下拉,菜单\";s:7:\"content\";s:244:\"<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>\";}i:2;a:6:{s:12:\"leipiplugins\";s:6:\"radios\";s:4:\"name\";s:7:\"data_14\";s:5:\"title\";s:6:\"单选\";s:5:\"value\";s:15:\"单选2,单选1\";s:7:\"content\";s:199:\"<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>\";s:7:\"options\";a:2:{i:0;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选2\";}i:1;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选1\";}}}i:3;a:11:{s:4:\"name\";s:7:\"data_18\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:8:\"{macros}\";s:5:\"title\";s:9:\"宏控件\";s:12:\"leipiplugins\";s:6:\"macros\";s:7:\"orgtype\";s:11:\"sys_date_cn\";s:7:\"orghide\";s:1:\"0\";s:11:\"orgfontsize\";s:2:\"12\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:30:\"font-size: 12px; width: 150px;\";s:7:\"content\";s:197:\"<input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/>\";}i:4;a:11:{s:4:\"name\";s:7:\"data_22\";s:4:\"type\";s:4:\"text\";s:5:\"title\";s:3:\"ren\";s:5:\"value\";s:2:\"12\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orghide\";s:1:\"0\";s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:8:\"orgalign\";s:4:\"left\";s:8:\"orgwidth\";s:3:\"150\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:176:\"<input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/>\";}i:5;a:14:{s:4:\"name\";s:7:\"data_23\";s:12:\"leipiplugins\";s:8:\"listctrl\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:14:\"{列表控件}\";s:8:\"readonly\";s:8:\"readonly\";s:5:\"title\";s:12:\"列表控件\";s:8:\"orgtitle\";s:21:\"名称`数量`金额`\";s:10:\"orgcoltype\";s:13:\"text`int`int`\";s:7:\"orgunit\";s:3:\"```\";s:6:\"orgsum\";s:6:\"0`1`1`\";s:11:\"orgcolvalue\";s:3:\"```\";s:5:\"style\";s:12:\"width: 100%;\";s:8:\"orgwidth\";s:4:\"100%\";s:7:\"content\";s:268:\"<input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/>\";}}',`updatetime`='1545059958' WHERE `id` = 1 [ RunTime:0.0036s ]
+NOTIC: [2] unlink(../Application/Runtime/Temp/21d9a5adf0e55158019e1c301ccb9502.php): No such file or directory F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2018-12-17T23:19:45+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0021s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 239 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:21:10+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0016s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 239 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:21:21+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0013s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 239 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:21:35+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+ERR: syntax error, unexpected '/'
+
+[ 2018-12-17T23:21:49+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0017s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 239 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:21:58+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0017s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 239 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:23:48+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0011s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:24:09+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/12276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2018-12-17T23:24:19+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/12276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-12-17T23:24:27+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2018-12-17T23:24:34+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_1' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `form_data_1` [ RunTime:0.0081s ]
+SQL: UPDATE `form` SET `fields`='23',`content`='<p style=\"text-align: center;\"><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\"><input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{|-<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>-|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{|-<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>-|}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{|--|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\"><input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p><input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/></p><p><input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/></p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_parse`='<p style=\"text-align: center;\"><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\">{data_12}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{data_13}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_14}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"></td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_18}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p>{data_22}</p><p>{data_23}</p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_data`='a:6:{i:0;a:12:{s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:5:\"title\";s:9:\"文本框\";s:5:\"value\";s:9:\"雷劈网\";s:4:\"name\";s:7:\"data_12\";s:9:\"orgheight\";s:0:\"\";s:8:\"orgwidth\";s:3:\"150\";s:8:\"orgalign\";s:4:\"left\";s:11:\"orgfontsize\";s:0:\"\";s:7:\"orghide\";s:1:\"0\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:205:\"<input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/>\";}i:1;a:8:{s:12:\"leipiplugins\";s:6:\"select\";s:4:\"name\";s:7:\"data_13\";s:5:\"title\";s:12:\"下拉菜单\";s:4:\"size\";s:1:\"1\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:13:\"width: 150px;\";s:5:\"value\";s:13:\"下拉,菜单\";s:7:\"content\";s:244:\"<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>\";}i:2;a:6:{s:12:\"leipiplugins\";s:6:\"radios\";s:4:\"name\";s:7:\"data_14\";s:5:\"title\";s:6:\"单选\";s:5:\"value\";s:15:\"单选2,单选1\";s:7:\"content\";s:199:\"<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>\";s:7:\"options\";a:2:{i:0;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选2\";}i:1;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选1\";}}}i:3;a:11:{s:4:\"name\";s:7:\"data_18\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:8:\"{macros}\";s:5:\"title\";s:9:\"宏控件\";s:12:\"leipiplugins\";s:6:\"macros\";s:7:\"orgtype\";s:11:\"sys_date_cn\";s:7:\"orghide\";s:1:\"0\";s:11:\"orgfontsize\";s:2:\"12\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:30:\"font-size: 12px; width: 150px;\";s:7:\"content\";s:197:\"<input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/>\";}i:4;a:11:{s:4:\"name\";s:7:\"data_22\";s:4:\"type\";s:4:\"text\";s:5:\"title\";s:3:\"ren\";s:5:\"value\";s:2:\"12\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orghide\";s:1:\"0\";s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:8:\"orgalign\";s:4:\"left\";s:8:\"orgwidth\";s:3:\"150\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:176:\"<input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/>\";}i:5;a:14:{s:4:\"name\";s:7:\"data_23\";s:12:\"leipiplugins\";s:8:\"listctrl\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:14:\"{列表控件}\";s:8:\"readonly\";s:8:\"readonly\";s:5:\"title\";s:12:\"列表控件\";s:8:\"orgtitle\";s:21:\"名称`数量`金额`\";s:10:\"orgcoltype\";s:13:\"text`int`int`\";s:7:\"orgunit\";s:3:\"```\";s:6:\"orgsum\";s:6:\"0`1`1`\";s:11:\"orgcolvalue\";s:3:\"```\";s:5:\"style\";s:12:\"width: 100%;\";s:8:\"orgwidth\";s:4:\"100%\";s:7:\"content\";s:268:\"<input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/>\";}}',`updatetime`='1545060274' WHERE `id` = 1 [ RunTime:0.0028s ]
+NOTIC: [2] unlink(../Application/Runtime/Temp/21d9a5adf0e55158019e1c301ccb9502.php): No such file or directory F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2018-12-17T23:25:07+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_1' [ RunTime:0.0012s ]
+ERR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'form_data_1' already exists
+
+[ 2018-12-17T23:25:24+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0011s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:26:40+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0012s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:26:56+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_1' [ RunTime:0.0013s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+ERR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'form_data_1' already exists
+
+[ 2018-12-17T23:33:56+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0012s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 241 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:34:54+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0010s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 241 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:35:03+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_1' [ RunTime:0.0014s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `form_data_1` [ RunTime:0.0080s ]
+SQL: UPDATE `form` SET `fields`='23',`content`='<p style=\"text-align: center;\"><span style=\"border: 1px solid rgb(0, 0, 0);\"></span><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\"><input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{|-<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>-|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{|-<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>-|}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{|--|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\"><input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p><input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/></p><p><input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/></p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_parse`='<p style=\"text-align: center;\"><span style=\"border: 1px solid rgb(0, 0, 0);\"></span><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\">{data_12}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{data_13}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_14}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"></td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_18}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p>{data_22}</p><p>{data_23}</p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_data`='a:6:{i:0;a:12:{s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:5:\"title\";s:9:\"文本框\";s:5:\"value\";s:9:\"雷劈网\";s:4:\"name\";s:7:\"data_12\";s:9:\"orgheight\";s:0:\"\";s:8:\"orgwidth\";s:3:\"150\";s:8:\"orgalign\";s:4:\"left\";s:11:\"orgfontsize\";s:0:\"\";s:7:\"orghide\";s:1:\"0\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:205:\"<input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/>\";}i:1;a:8:{s:12:\"leipiplugins\";s:6:\"select\";s:4:\"name\";s:7:\"data_13\";s:5:\"title\";s:12:\"下拉菜单\";s:4:\"size\";s:1:\"1\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:13:\"width: 150px;\";s:5:\"value\";s:13:\"下拉,菜单\";s:7:\"content\";s:244:\"<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>\";}i:2;a:6:{s:12:\"leipiplugins\";s:6:\"radios\";s:4:\"name\";s:7:\"data_14\";s:5:\"title\";s:6:\"单选\";s:5:\"value\";s:15:\"单选2,单选1\";s:7:\"content\";s:199:\"<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>\";s:7:\"options\";a:2:{i:0;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选2\";}i:1;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选1\";}}}i:3;a:11:{s:4:\"name\";s:7:\"data_18\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:8:\"{macros}\";s:5:\"title\";s:9:\"宏控件\";s:12:\"leipiplugins\";s:6:\"macros\";s:7:\"orgtype\";s:11:\"sys_date_cn\";s:7:\"orghide\";s:1:\"0\";s:11:\"orgfontsize\";s:2:\"12\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:30:\"font-size: 12px; width: 150px;\";s:7:\"content\";s:197:\"<input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/>\";}i:4;a:11:{s:4:\"name\";s:7:\"data_22\";s:4:\"type\";s:4:\"text\";s:5:\"title\";s:3:\"ren\";s:5:\"value\";s:2:\"12\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orghide\";s:1:\"0\";s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:8:\"orgalign\";s:4:\"left\";s:8:\"orgwidth\";s:3:\"150\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:176:\"<input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/>\";}i:5;a:14:{s:4:\"name\";s:7:\"data_23\";s:12:\"leipiplugins\";s:8:\"listctrl\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:14:\"{列表控件}\";s:8:\"readonly\";s:8:\"readonly\";s:5:\"title\";s:12:\"列表控件\";s:8:\"orgtitle\";s:21:\"名称`数量`金额`\";s:10:\"orgcoltype\";s:13:\"text`int`int`\";s:7:\"orgunit\";s:3:\"```\";s:6:\"orgsum\";s:6:\"0`1`1`\";s:11:\"orgcolvalue\";s:3:\"```\";s:5:\"style\";s:12:\"width: 100%;\";s:8:\"orgwidth\";s:4:\"100%\";s:7:\"content\";s:268:\"<input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/>\";}}',`updatetime`='1545060903' WHERE `id` = 1 [ RunTime:0.0065s ]
+NOTIC: [2] unlink(../Application/Runtime/Temp/21d9a5adf0e55158019e1c301ccb9502.php): No such file or directory F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2018-12-17T23:40:56+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_1' [ RunTime:0.0012s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `form_data_1` [ RunTime:0.0080s ]
+SQL: UPDATE `form` SET `fields`='23',`content`='<p style=\"text-align: center;\"><span style=\"border: 1px solid rgb(0, 0, 0);\"></span><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\"><input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{|-<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>-|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{|-<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>-|}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{|--|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\"><input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p><input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/></p><p><input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/></p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_parse`='<p style=\"text-align: center;\"><span style=\"border: 1px solid rgb(0, 0, 0);\"></span><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\">{data_12}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{data_13}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_14}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"></td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_18}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p>{data_22}</p><p>{data_23}</p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_data`='a:6:{i:0;a:12:{s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:5:\"title\";s:9:\"文本框\";s:5:\"value\";s:9:\"雷劈网\";s:4:\"name\";s:7:\"data_12\";s:9:\"orgheight\";s:0:\"\";s:8:\"orgwidth\";s:3:\"150\";s:8:\"orgalign\";s:4:\"left\";s:11:\"orgfontsize\";s:0:\"\";s:7:\"orghide\";s:1:\"0\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:205:\"<input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/>\";}i:1;a:8:{s:12:\"leipiplugins\";s:6:\"select\";s:4:\"name\";s:7:\"data_13\";s:5:\"title\";s:12:\"下拉菜单\";s:4:\"size\";s:1:\"1\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:13:\"width: 150px;\";s:5:\"value\";s:13:\"下拉,菜单\";s:7:\"content\";s:244:\"<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>\";}i:2;a:6:{s:12:\"leipiplugins\";s:6:\"radios\";s:4:\"name\";s:7:\"data_14\";s:5:\"title\";s:6:\"单选\";s:5:\"value\";s:15:\"单选2,单选1\";s:7:\"content\";s:199:\"<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>\";s:7:\"options\";a:2:{i:0;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选2\";}i:1;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选1\";}}}i:3;a:11:{s:4:\"name\";s:7:\"data_18\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:8:\"{macros}\";s:5:\"title\";s:9:\"宏控件\";s:12:\"leipiplugins\";s:6:\"macros\";s:7:\"orgtype\";s:11:\"sys_date_cn\";s:7:\"orghide\";s:1:\"0\";s:11:\"orgfontsize\";s:2:\"12\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:30:\"font-size: 12px; width: 150px;\";s:7:\"content\";s:197:\"<input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/>\";}i:4;a:11:{s:4:\"name\";s:7:\"data_22\";s:4:\"type\";s:4:\"text\";s:5:\"title\";s:3:\"ren\";s:5:\"value\";s:2:\"12\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orghide\";s:1:\"0\";s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:8:\"orgalign\";s:4:\"left\";s:8:\"orgwidth\";s:3:\"150\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:176:\"<input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/>\";}i:5;a:14:{s:4:\"name\";s:7:\"data_23\";s:12:\"leipiplugins\";s:8:\"listctrl\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:14:\"{列表控件}\";s:8:\"readonly\";s:8:\"readonly\";s:5:\"title\";s:12:\"列表控件\";s:8:\"orgtitle\";s:21:\"名称`数量`金额`\";s:10:\"orgcoltype\";s:13:\"text`int`int`\";s:7:\"orgunit\";s:3:\"```\";s:6:\"orgsum\";s:6:\"0`1`1`\";s:11:\"orgcolvalue\";s:3:\"```\";s:5:\"style\";s:12:\"width: 100%;\";s:8:\"orgwidth\";s:4:\"100%\";s:7:\"content\";s:268:\"<input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/>\";}}',`updatetime`='1545061256' WHERE `id` = 1 [ RunTime:0.0029s ]
+NOTIC: [2] unlink(../Application/Runtime/Temp/21d9a5adf0e55158019e1c301ccb9502.php): No such file or directory F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2018-12-17T23:41:01+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0009s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 241 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.form_data_12276' doesn't exist
+
+[ 2018-12-17T23:41:18+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_1' [ RunTime:0.0014s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `form_data_1` [ RunTime:0.0057s ]
+SQL: UPDATE `form` SET `fields`='23',`content`='<p style=\"text-align: center;\"><span style=\"border: 1px solid rgb(0, 0, 0);\"></span><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\"><input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{|-<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>-|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{|-<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>-|}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{|--|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\"><input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p><input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/></p><p><input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/></p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_parse`='<p style=\"text-align: center;\"><span style=\"border: 1px solid rgb(0, 0, 0);\"></span><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\">{data_12}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{data_13}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_14}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"></td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_18}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p>{data_22}</p><p>{data_23}</p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_data`='a:6:{i:0;a:12:{s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:5:\"title\";s:9:\"文本框\";s:5:\"value\";s:9:\"雷劈网\";s:4:\"name\";s:7:\"data_12\";s:9:\"orgheight\";s:0:\"\";s:8:\"orgwidth\";s:3:\"150\";s:8:\"orgalign\";s:4:\"left\";s:11:\"orgfontsize\";s:0:\"\";s:7:\"orghide\";s:1:\"0\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:205:\"<input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/>\";}i:1;a:8:{s:12:\"leipiplugins\";s:6:\"select\";s:4:\"name\";s:7:\"data_13\";s:5:\"title\";s:12:\"下拉菜单\";s:4:\"size\";s:1:\"1\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:13:\"width: 150px;\";s:5:\"value\";s:13:\"下拉,菜单\";s:7:\"content\";s:244:\"<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>\";}i:2;a:6:{s:12:\"leipiplugins\";s:6:\"radios\";s:4:\"name\";s:7:\"data_14\";s:5:\"title\";s:6:\"单选\";s:5:\"value\";s:15:\"单选2,单选1\";s:7:\"content\";s:199:\"<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>\";s:7:\"options\";a:2:{i:0;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选2\";}i:1;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选1\";}}}i:3;a:11:{s:4:\"name\";s:7:\"data_18\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:8:\"{macros}\";s:5:\"title\";s:9:\"宏控件\";s:12:\"leipiplugins\";s:6:\"macros\";s:7:\"orgtype\";s:11:\"sys_date_cn\";s:7:\"orghide\";s:1:\"0\";s:11:\"orgfontsize\";s:2:\"12\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:30:\"font-size: 12px; width: 150px;\";s:7:\"content\";s:197:\"<input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/>\";}i:4;a:11:{s:4:\"name\";s:7:\"data_22\";s:4:\"type\";s:4:\"text\";s:5:\"title\";s:3:\"ren\";s:5:\"value\";s:2:\"12\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orghide\";s:1:\"0\";s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:8:\"orgalign\";s:4:\"left\";s:8:\"orgwidth\";s:3:\"150\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:176:\"<input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/>\";}i:5;a:14:{s:4:\"name\";s:7:\"data_23\";s:12:\"leipiplugins\";s:8:\"listctrl\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:14:\"{列表控件}\";s:8:\"readonly\";s:8:\"readonly\";s:5:\"title\";s:12:\"列表控件\";s:8:\"orgtitle\";s:21:\"名称`数量`金额`\";s:10:\"orgcoltype\";s:13:\"text`int`int`\";s:7:\"orgunit\";s:3:\"```\";s:6:\"orgsum\";s:6:\"0`1`1`\";s:11:\"orgcolvalue\";s:3:\"```\";s:5:\"style\";s:12:\"width: 100%;\";s:8:\"orgwidth\";s:4:\"100%\";s:7:\"content\";s:268:\"<input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/>\";}}',`updatetime`='1545061278' WHERE `id` = 1 [ RunTime:0.0026s ]
+NOTIC: [2] unlink(../Application/Runtime/Temp/21d9a5adf0e55158019e1c301ccb9502.php): No such file or directory F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2018-12-17T23:42:03+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `form` WHERE `id` = 1 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_1' [ RunTime:0.0013s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+SQL: SHOW COLUMNS FROM `form_data_1` [ RunTime:0.0063s ]
+SQL: UPDATE `form` SET `fields`='23',`content`='<p style=\"text-align: center;\"><span style=\"border: 1px solid rgb(0, 0, 0);\"></span><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\"><input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{|-<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>-|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{|-<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>-|}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{|--|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\"><input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p><input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/></p><p><input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/></p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_parse`='<p style=\"text-align: center;\"><span style=\"border: 1px solid rgb(0, 0, 0);\"></span><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\">{data_12}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221); word-break: break-all;\" width=\"312\" valign=\"top\">{data_13}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_14}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"></td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_18}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><br/></td></tr></tbody></table><p>{data_22}</p><p>{data_23}</p><p><br/></p><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio><audio controls=\"controls\" style=\"display: none;\"></audio>',`content_data`='a:6:{i:0;a:12:{s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:5:\"title\";s:9:\"文本框\";s:5:\"value\";s:9:\"雷劈网\";s:4:\"name\";s:7:\"data_12\";s:9:\"orgheight\";s:0:\"\";s:8:\"orgwidth\";s:3:\"150\";s:8:\"orgalign\";s:4:\"left\";s:11:\"orgfontsize\";s:0:\"\";s:7:\"orghide\";s:1:\"0\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:205:\"<input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_12\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/>\";}i:1;a:8:{s:12:\"leipiplugins\";s:6:\"select\";s:4:\"name\";s:7:\"data_13\";s:5:\"title\";s:12:\"下拉菜单\";s:4:\"size\";s:1:\"1\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:13:\"width: 150px;\";s:5:\"value\";s:13:\"下拉,菜单\";s:7:\"content\";s:244:\"<span leipiplugins=\"select\"><select name=\"data_13\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>\";}i:2;a:6:{s:12:\"leipiplugins\";s:6:\"radios\";s:4:\"name\";s:7:\"data_14\";s:5:\"title\";s:6:\"单选\";s:5:\"value\";s:15:\"单选2,单选1\";s:7:\"content\";s:199:\"<span leipiplugins=\"radios\" name=\"data_14\" title=\"单选\"><input type=\"radio\" name=\"data_14\" value=\"单选2\"  />单选2&nbsp;<input type=\"radio\" name=\"data_14\" value=\"单选1\"  />单选1&nbsp;</span>\";s:7:\"options\";a:2:{i:0;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选2\";}i:1;a:3:{s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:7:\"data_14\";s:5:\"value\";s:7:\"单选1\";}}}i:3;a:11:{s:4:\"name\";s:7:\"data_18\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:8:\"{macros}\";s:5:\"title\";s:9:\"宏控件\";s:12:\"leipiplugins\";s:6:\"macros\";s:7:\"orgtype\";s:11:\"sys_date_cn\";s:7:\"orghide\";s:1:\"0\";s:11:\"orgfontsize\";s:2:\"12\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:30:\"font-size: 12px; width: 150px;\";s:7:\"content\";s:197:\"<input name=\"data_18\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/>\";}i:4;a:11:{s:4:\"name\";s:7:\"data_22\";s:4:\"type\";s:4:\"text\";s:5:\"title\";s:3:\"ren\";s:5:\"value\";s:2:\"12\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orghide\";s:1:\"0\";s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:8:\"orgalign\";s:4:\"left\";s:8:\"orgwidth\";s:3:\"150\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:176:\"<input name=\"data_22\" type=\"text\" title=\"ren\" value=\"12\" leipiplugins=\"text\" orghide=\"0\" style=\"text-align: left; width: 150px;\" orgalign=\"left\" orgwidth=\"150\" orgtype=\"text\"/>\";}i:5;a:14:{s:4:\"name\";s:7:\"data_23\";s:12:\"leipiplugins\";s:8:\"listctrl\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:14:\"{列表控件}\";s:8:\"readonly\";s:8:\"readonly\";s:5:\"title\";s:12:\"列表控件\";s:8:\"orgtitle\";s:21:\"名称`数量`金额`\";s:10:\"orgcoltype\";s:13:\"text`int`int`\";s:7:\"orgunit\";s:3:\"```\";s:6:\"orgsum\";s:6:\"0`1`1`\";s:11:\"orgcolvalue\";s:3:\"```\";s:5:\"style\";s:12:\"width: 100%;\";s:8:\"orgwidth\";s:4:\"100%\";s:7:\"content\";s:268:\"<input name=\"data_23\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"列表控件\" orgtitle=\"名称`数量`金额`\" orgcoltype=\"text`int`int`\" orgunit=\"```\" orgsum=\"0`1`1`\" orgcolvalue=\"```\" style=\"width: 100%;\" orgwidth=\"100%\"/>\";}}',`updatetime`='1545061323' WHERE `id` = 1 [ RunTime:0.0025s ]
+NOTIC: [2] unlink(../Application/Runtime/Temp/21d9a5adf0e55158019e1c301ccb9502.php): No such file or directory F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2018-12-17T23:42:08+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 70 行.
+SQL: select table_name from information_schema.tables  where table_name = 'form_data_12276' [ RunTime:0.0012s ]
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 240 行.
+SQL: CREATE TABLE `form_data_12276` (
+              `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              `uid` int(10) unsigned NOT NULL DEFAULT '0',
+              `foreign_id` int(10) unsigned NOT NULL DEFAULT '0',
+              `data_1` varchar(255) NOT NULL DEFAULT '',`data_2` varchar(255) NOT NULL DEFAULT '',`data_3` varchar(255) NOT NULL DEFAULT '',`data_4` tinyint(1) UNSIGNED NOT NULL DEFAULT 0,`data_5` tinyint(1) UNSIGNED NOT NULL DEFAULT 0,`data_6` tinyint(1) UNSIGNED NOT NULL DEFAULT 0,`data_7` varchar(255) NOT NULL DEFAULT '',`data_8` varchar(255) NOT NULL DEFAULT '',`data_9` text NOT NULL,`data_10` text NOT NULL,`data_11` varchar(255) NOT NULL DEFAULT '',
+              `is_del` tinyint(1) unsigned NOT NULL DEFAULT '0',
+              `updatetime` int(10) unsigned NOT NULL DEFAULT '0',
+              `dateline` int(10) unsigned NOT NULL DEFAULT '0',
+              PRIMARY KEY (`id`),
+              KEY `uid` (`uid`),
+              KEY `foreign_id` (`foreign_id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8; [ RunTime:0.0081s ]
+SQL: UPDATE `form` SET `fields`='11',`content`='<p style=\"text-align: center;\"><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\"><input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_1\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{|-<span leipiplugins=\"select\"><select name=\"data_2\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>-|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{|-<span leipiplugins=\"radios\" name=\"data_3\" title=\"单选\"><input type=\"radio\" name=\"data_3\" value=\"单选1\"  checked=\"checked\"/>单选1&nbsp;<input type=\"radio\" name=\"data_3\" value=\"单选2\"  />单选2&nbsp;</span>-|}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{|-<span leipiplugins=\"checkboxs\" title=\"复选\"><input type=\"checkbox\" name=\"data_4\" value=\"复选1\" checked=\"checked\"/>复选1&nbsp;<input type=\"checkbox\" name=\"data_5\" value=\"复选2\" checked=\"checked\"/>复选2&nbsp;<input type=\"checkbox\" name=\"data_6\" value=\"复选3\" />复选3&nbsp;</span>-|}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\"><input name=\"data_7\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/></td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\"><img name=\"data_8\" title=\"雷劈网\" value=\"http://www.leipi.org\" orgtype=\"url\" leipiplugins=\"qrcode\" src=\"/Public/js/ueditor/formdesign/images/qrcode.gif\" orgwidth=\"40\" orgheight=\"40\" style=\"width: 40px; height: 40px;\"/></td></tr></tbody></table><p><input name=\"data_9\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"采购商品列表\" orgtitle=\"商品名称`数量`单价`小计`描述`\" orgcoltype=\"text`int`int`int`text`\" orgunit=\"```元``\" orgsum=\"0`0`0`1`0`\" orgcolvalue=\"`````\" orgwidth=\"100%\" style=\"width: 100%;\"/></p><p><textarea title=\"多行文本\" name=\"data_10\" leipiplugins=\"textarea\" value=\"\" orgrich=\"0\" orgfontsize=\"12\" orgwidth=\"600\" orgheight=\"80\" style=\"font-size:12px;width:600px;height:80px;\"></textarea></p><p><img name=\"data_11\" title=\"进度条\" leipiplugins=\"progressbar\" orgvalue=\"20\" orgsigntype=\"progress-info\" src=\"/Public/js/ueditor/formdesign/images/progressbar.gif\"/></p><p><br/></p>',`content_parse`='<p style=\"text-align: center;\"><br/></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\">示例表</span></p><table class=\"table table-bordered\"><tbody><tr class=\"firstRow\"><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">文本框</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"227\" valign=\"top\">{data_1}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">下拉菜单</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{data_2}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">单选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_3}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">复选</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{checkboxs_0}</td></tr><tr><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" valign=\"top\">宏控件</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"41\" valign=\"top\">{data_7}</td><td style=\"word-break: break-all; border-color: rgb(221, 221, 221);\" width=\"85\" valign=\"top\">二维码</td><td style=\"border-color: rgb(221, 221, 221);\" width=\"312\" valign=\"top\">{data_8}</td></tr></tbody></table><p>{data_9}</p><p>{data_10}</p><p>{data_11}</p><p><br/></p>',`content_data`='a:9:{i:0;a:12:{s:5:\"style\";s:31:\"text-align: left; width: 150px;\";s:5:\"title\";s:9:\"文本框\";s:5:\"value\";s:9:\"雷劈网\";s:4:\"name\";s:6:\"data_1\";s:9:\"orgheight\";s:0:\"\";s:8:\"orgwidth\";s:3:\"150\";s:8:\"orgalign\";s:4:\"left\";s:11:\"orgfontsize\";s:0:\"\";s:7:\"orghide\";s:1:\"0\";s:12:\"leipiplugins\";s:4:\"text\";s:7:\"orgtype\";s:4:\"text\";s:7:\"content\";s:204:\"<input style=\"text-align: left; width: 150px;\" title=\"文本框\" value=\"雷劈网\" name=\"data_1\" orgheight=\"\" orgwidth=\"150\" orgalign=\"left\" orgfontsize=\"\" orghide=\"0\" leipiplugins=\"text\" orgtype=\"text\"/>\";}i:1;a:8:{s:12:\"leipiplugins\";s:6:\"select\";s:4:\"name\";s:6:\"data_2\";s:5:\"title\";s:12:\"下拉菜单\";s:4:\"size\";s:1:\"1\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:13:\"width: 150px;\";s:5:\"value\";s:13:\"下拉,菜单\";s:7:\"content\";s:243:\"<span leipiplugins=\"select\"><select name=\"data_2\" title=\"下拉菜单\" leipiplugins=\"select\" size=\"1\" orgwidth=\"150\" style=\"width: 150px;\"><option value=\"下拉\">下拉</option><option value=\"菜单\">菜单</option></select>&nbsp;&nbsp;</span>\";}i:2;a:6:{s:12:\"leipiplugins\";s:6:\"radios\";s:5:\"title\";s:6:\"单选\";s:4:\"name\";s:6:\"data_3\";s:5:\"value\";s:15:\"单选1,单选2\";s:7:\"content\";s:213:\"<span leipiplugins=\"radios\" name=\"data_3\" title=\"单选\"><input type=\"radio\" name=\"data_3\" value=\"单选1\"  checked=\"checked\"/>单选1&nbsp;<input type=\"radio\" name=\"data_3\" value=\"单选2\"  />单选2&nbsp;</span>\";s:7:\"options\";a:2:{i:0;a:4:{s:5:\"value\";s:7:\"单选1\";s:4:\"type\";s:5:\"radio\";s:7:\"checked\";s:7:\"checked\";s:4:\"name\";s:6:\"data_3\";}i:1;a:3:{s:5:\"value\";s:7:\"单选2\";s:4:\"type\";s:5:\"radio\";s:4:\"name\";s:6:\"data_3\";}}}i:3;a:7:{s:12:\"leipiplugins\";s:9:\"checkboxs\";s:5:\"title\";s:6:\"复选\";s:10:\"parse_name\";s:11:\"checkboxs_0\";s:4:\"name\";s:20:\"data_4,data_5,data_6\";s:5:\"value\";s:23:\"复选1,复选2,复选3\";s:7:\"content\";s:291:\"<span leipiplugins=\"checkboxs\" title=\"复选\"><input type=\"checkbox\" name=\"data_4\" value=\"复选1\" checked=\"checked\"/>复选1&nbsp;<input type=\"checkbox\" name=\"data_5\" value=\"复选2\" checked=\"checked\"/>复选2&nbsp;<input type=\"checkbox\" name=\"data_6\" value=\"复选3\" />复选3&nbsp;</span>\";s:7:\"options\";a:3:{i:0;a:4:{s:4:\"name\";s:6:\"data_4\";s:5:\"value\";s:7:\"复选1\";s:4:\"type\";s:8:\"checkbox\";s:7:\"checked\";s:7:\"checked\";}i:1;a:4:{s:4:\"name\";s:6:\"data_5\";s:5:\"value\";s:7:\"复选2\";s:4:\"type\";s:8:\"checkbox\";s:7:\"checked\";s:7:\"checked\";}i:2;a:3:{s:4:\"name\";s:6:\"data_6\";s:5:\"value\";s:7:\"复选3\";s:4:\"type\";s:8:\"checkbox\";}}}i:4;a:11:{s:4:\"name\";s:6:\"data_7\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:8:\"{macros}\";s:5:\"title\";s:9:\"宏控件\";s:12:\"leipiplugins\";s:6:\"macros\";s:7:\"orgtype\";s:11:\"sys_date_cn\";s:7:\"orghide\";s:1:\"0\";s:11:\"orgfontsize\";s:2:\"12\";s:8:\"orgwidth\";s:3:\"150\";s:5:\"style\";s:30:\"font-size: 12px; width: 150px;\";s:7:\"content\";s:196:\"<input name=\"data_7\" type=\"text\" value=\"{macros}\" title=\"宏控件\" leipiplugins=\"macros\" orgtype=\"sys_date_cn\" orghide=\"0\" orgfontsize=\"12\" orgwidth=\"150\" style=\"font-size: 12px; width: 150px;\"/>\";}i:5;a:10:{s:4:\"name\";s:6:\"data_8\";s:5:\"title\";s:9:\"雷劈网\";s:5:\"value\";s:20:\"http://www.leipi.org\";s:7:\"orgtype\";s:3:\"url\";s:12:\"leipiplugins\";s:6:\"qrcode\";s:3:\"src\";s:47:\"/Public/js/ueditor/formdesign/images/qrcode.gif\";s:8:\"orgwidth\";s:2:\"40\";s:9:\"orgheight\";s:2:\"40\";s:5:\"style\";s:26:\"width: 40px; height: 40px;\";s:7:\"content\";s:221:\"<img name=\"data_8\" title=\"雷劈网\" value=\"http://www.leipi.org\" orgtype=\"url\" leipiplugins=\"qrcode\" src=\"/Public/js/ueditor/formdesign/images/qrcode.gif\" orgwidth=\"40\" orgheight=\"40\" style=\"width: 40px; height: 40px;\"/>\";}i:6;a:14:{s:4:\"name\";s:6:\"data_9\";s:12:\"leipiplugins\";s:8:\"listctrl\";s:4:\"type\";s:4:\"text\";s:5:\"value\";s:14:\"{列表控件}\";s:8:\"readonly\";s:8:\"readonly\";s:5:\"title\";s:18:\"采购商品列表\";s:8:\"orgtitle\";s:41:\"商品名称`数量`单价`小计`描述`\";s:10:\"orgcoltype\";s:22:\"text`int`int`int`text`\";s:7:\"orgunit\";s:8:\"```元``\";s:6:\"orgsum\";s:10:\"0`0`0`1`0`\";s:11:\"orgcolvalue\";s:5:\"`````\";s:8:\"orgwidth\";s:4:\"100%\";s:5:\"style\";s:12:\"width: 100%;\";s:7:\"content\";s:313:\"<input name=\"data_9\" leipiplugins=\"listctrl\" type=\"text\" value=\"{列表控件}\" readonly=\"readonly\" title=\"采购商品列表\" orgtitle=\"商品名称`数量`单价`小计`描述`\" orgcoltype=\"text`int`int`int`text`\" orgunit=\"```元``\" orgsum=\"0`0`0`1`0`\" orgcolvalue=\"`````\" orgwidth=\"100%\" style=\"width: 100%;\"/>\";}i:7;a:10:{s:5:\"title\";s:12:\"多行文本\";s:4:\"name\";s:7:\"data_10\";s:12:\"leipiplugins\";s:8:\"textarea\";s:5:\"value\";s:0:\"\";s:7:\"orgrich\";s:1:\"0\";s:11:\"orgfontsize\";s:2:\"12\";s:8:\"orgwidth\";s:3:\"600\";s:9:\"orgheight\";s:2:\"80\";s:5:\"style\";s:39:\"font-size:12px;width:600px;height:80px;\";s:7:\"content\";s:197:\"<textarea title=\"多行文本\" name=\"data_10\" leipiplugins=\"textarea\" value=\"\" orgrich=\"0\" orgfontsize=\"12\" orgwidth=\"600\" orgheight=\"80\" style=\"font-size:12px;width:600px;height:80px;\"></textarea>\";}i:8;a:7:{s:4:\"name\";s:7:\"data_11\";s:5:\"title\";s:9:\"进度条\";s:12:\"leipiplugins\";s:11:\"progressbar\";s:8:\"orgvalue\";s:2:\"20\";s:11:\"orgsigntype\";s:13:\"progress-info\";s:3:\"src\";s:52:\"/Public/js/ueditor/formdesign/images/progressbar.gif\";s:7:\"content\";s:167:\"<img name=\"data_11\" title=\"进度条\" leipiplugins=\"progressbar\" orgvalue=\"20\" orgsigntype=\"progress-info\" src=\"/Public/js/ueditor/formdesign/images/progressbar.gif\"/>\";}}',`updatetime`='1545061328' WHERE `id` = 12276 [ RunTime:0.0025s ]
+NOTIC: [2] unlink(../Application/Runtime/Temp/21d9a5adf0e55158019e1c301ccb9502.php): No such file or directory F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+
+[ 2018-12-17T23:42:33+08:00 ] 127.0.0.1 /index.php?s=/demo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `form` WHERE `is_del` = 0 LIMIT 1   [ RunTime:0.7533s ]
+SQL: SELECT `id`,`form_name`,`form_desc`,`fields`,`updatetime`,`dateline` FROM `form` WHERE `is_del` = 0 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-12-17T23:42:37+08:00 ] 127.0.0.1 /index.php?s=/demodata/index/form_id/12276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `foreign_test` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `foreign_test` WHERE `form_id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: page F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\DemodataController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2018-12-17T23:42:46+08:00 ] 127.0.0.1 /index.php?s=/demo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `form` WHERE `is_del` = 0 LIMIT 1   [ RunTime:0.7298s ]
+SQL: SELECT `id`,`form_name`,`form_desc`,`fields`,`updatetime`,`dateline` FROM `form` WHERE `is_del` = 0 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-12-17T23:42:49+08:00 ] 127.0.0.1 /index.php?s=/demo/formdesign/form_id/12275.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12275 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2018-12-17T23:43:13+08:00 ] 127.0.0.1 /index.php?s=/demodata/index/form_id/12276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `foreign_test` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `foreign_test` WHERE `form_id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: page F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Controller\DemodataController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2018-12-17T23:43:14+08:00 ] 127.0.0.1 /index.php?s=/demodata/add/form_id/12276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: data_7 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 377 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 20 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 944 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 14 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 944 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 615 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 615 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 615 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 624 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 602 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 602 行.
+NOTIC: [8] Undefined index: value F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 313 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: id F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\4b79fa7461d3bdf815a288bd032569c2.php 第 82 行.
+NOTIC: [8] Undefined index: name F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Runtime\Cache\Home\4b79fa7461d3bdf815a288bd032569c2.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-12-17T23:44:13+08:00 ] 127.0.0.1 /index.php?s=/demodata/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Array to string conversion F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Common\Controller\CommonController.class.php 第 86 行.
+NOTIC: [8] Array to string conversion F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Common\Controller\CommonController.class.php 第 86 行.
+NOTIC: [8] Array to string conversion F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Common\Controller\CommonController.class.php 第 86 行.
+NOTIC: [8] Array to string conversion F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Common\Controller\CommonController.class.php 第 86 行.
+NOTIC: [8] Array to string conversion F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Common\Controller\CommonController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `foreign_test` [ RunTime:0.0055s ]
+SQL: INSERT INTO `foreign_test` (`name`,`updatetime`,`form_id`,`dateline`) VALUES ('1','1545061453','12276','1545061453') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `form_data_12276` [ RunTime:0.0064s ]
+SQL: INSERT INTO `form_data_12276` (`uid`,`updatetime`,`foreign_id`,`dateline`,`data_1`,`data_2`,`data_3`,`data_4`,`data_5`,`data_6`,`data_7`,`data_8`,`data_9`,`data_10`,`data_11`) VALUES ('0','1545061453','17','1545061453','雷劈网','菜单','单选1','1','0','0','2018年12月17日','a:2:{s:5:\"value\";s:552:\"https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=monline_dg&wd=thinkphp%20%E8%A1%A8%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8&oq=ThinkPHP%2520%25E5%25A6%2582%25E4%25BD%2595%25E5%2588%25A4%25E6%2596%25AD%25E6%259F%25A5%25E8%25AF%25A2%25E7%25BB%2593%25E6%259E%259C%25E4%25B8%25BA%25E7%25A9%25BA&rsv_pq=83971be90000d397&rsv_t=5785n%2FcRc%2Bj40Fvv6b10xvy8kQ%2F2hWF8SdorgrE4zHLaFyqdk5r8KVnXAV3H37JFRQ&rqlang=cn&rsv_enter=1&rsv_sug3=10&rsv_sug1=7&rsv_sug7=100&bs=ThinkPHP%20%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E4%B8%BA%E7%A9%BA\";s:10:\"qrcode_url\";s:45:\"/Uploads/6d81bac1bc0d0f8e6f149fb20584f700.png\";}','a:2:{s:4:\"list\";a:2:{i:0;a:5:{i:0;s:6:\"白菜\";i:1;d:1;i:2;d:2;i:3;d:2;i:4;s:2:\"32\";}i:1;a:5:{i:0;s:6:\"萝卜\";i:1;d:1;i:2;d:2;i:3;d:2;i:4;s:6:\"请问\";}}s:3:\"sum\";a:1:{i:3;s:1:\"4\";}}','','20') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Common\functions.php:821) F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Common\functions.php:821) F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Common\functions.php:821) F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+
+[ 2018-12-17T23:44:16+08:00 ] 127.0.0.1 /index.php?s=/demodata/edit/form_id/12276/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `foreign_test` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `foreign_test` WHERE `id` = 17 AND `form_id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `form_data_12276` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `form_data_12276` WHERE `foreign_id` = 17 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] unserialize(): Error at offset 19 of 255 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 944 行.
+NOTIC: [8] Undefined offset: 1 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 615 行.
+NOTIC: [8] Undefined offset: 2 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 615 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 615 行.
+NOTIC: [8] Undefined offset: 3 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 624 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 602 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 602 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 649 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 649 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2018-12-17T23:44:18+08:00 ] 127.0.0.1 /index.php?s=/demodata/index/form_id/12276.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `foreign_test` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `foreign_test` WHERE `form_id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`updatetime`,`dateline` FROM `foreign_test` WHERE `form_id` = 12276 AND `is_del` = 0 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2018-12-17T23:44:21+08:00 ] 127.0.0.1 /index.php?s=/demodata/view/form_id/12276/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `form` WHERE `id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `foreign_test` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `foreign_test` WHERE `id` = 17 AND `form_id` = 12276 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `form_data_12276` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `form_data_12276` WHERE `foreign_id` = 17 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] unserialize(): Error at offset 19 of 255 bytes F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 944 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 490 行.
+NOTIC: [8] Undefined offset: 4 F:\WWW\biaodian\formdesign-master\Formdesign4_1_Ueditor1_4_2_Thinkphp3_2\Application\Home\Org\Formdesign.class.php 第 490 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2018-12-17T23:46:14+08:00 ] 127.0.0.1 /index.php?s=/demo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `form` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `form` WHERE `is_del` = 0 LIMIT 1   [ RunTime:0.7399s ]
+SQL: SELECT `id`,`form_name`,`form_desc`,`fields`,`updatetime`,`dateline` FROM `form` WHERE `is_del` = 0 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
